@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../../Task Management()/Task Management (spring boot)/task-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gatwayserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/task-notification-service/task-notification-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/task-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/task-service/task-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/task-service/task-submition-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/task-submition-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>

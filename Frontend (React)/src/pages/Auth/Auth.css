@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  padding: 40px 30px;
+  box-shadow: rgba(102, 102, 102, 0.507) 0px 0px 100px;
+  border-radius: 25px;
+  perspective: 500px;
+  height: 70%;
+background-color: black;
+  
+}
+.box .cover {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 50%;
+  z-index: 98;
+  transition: all 1s ease;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  
+}
+
+.box .rotate-active {
+  transform: rotateY(-180deg);
+  border-radius: 0px 25px 25px 0px;
+  background-color: gray;
+  overflow: hidden;
+}
+
+.box .cover .front,
+.box .cover .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+  border-radius: 0px 25px 25px 0px;
+}
+
+
+.cover .back {
+  transform: rotateY(180deg);
+  border-radius: 0px 25px 25px 0px;
+  overflow: hidden;
+ 
+}
+
+.box .cover::before,
+.box .cover::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #161516;
+  border-radius: 0px 25px 25px 0px;
+  overflow: hidden;
+
+  z-index: 12;
+}
+.box .cover::after {
+  transform: rotateY(180deg);
+  border-radius: 0px 25px 25px 0px;
+
+  overflow: hidden;
+  backface-visibility: hidden;
+}
+.box .cover img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+  z-index: 10;
+}
+.box .cover .text {
+  position: absolute;
+  z-index: 130;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cover .text .text-1,
+.cover .text .text-2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  line-height: normal;
+}
+
+.cover .text .text-2 {
+  margin-top: 7px;
+  font-size: 16px;
+}
+
+.box .form-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-content .login-form,
+.form-content .signup-form {
+  width: calc(100% / 2 - 25px);
+}
+
+.textStyle {
+  color: #ffffff;
+  text-shadow: 0px 0px 40px rgba(255, 255, 255);
+}
+.front{
+  background-color: gray;
+}

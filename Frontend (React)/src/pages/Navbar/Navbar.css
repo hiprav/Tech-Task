@@ -1,0 +1,10 @@
+.container {
+
+  background-image: linear-gradient(150deg);
+  background-color: black;
+}
+@media (min-width: 1280px) {
+  .container {
+      max-width: 100%;
+  }
+}
