@@ -2,7 +2,7 @@
 # Tech-Task
 # FullStack Microservice Project
 Createrd Task management Peoject using individual microservices for User management, Task management, and Task submissions, ensuring a clean and modular codebase
-## TechStack
+## TechStack👨‍💻
  - Frontend : React, Redux Toolkit(state management), Material-UI(Mui), Tailwind CSS
 - Backend : Spring Boot, Eureka Server, Gateway Serve, Spring Security
 - Database : MySQL
